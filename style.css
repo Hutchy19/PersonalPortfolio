@@ -1,0 +1,140 @@
+/* Gradient Effect */
+.gradient-background {
+  background: linear-gradient(300deg, #37306B, #66347F, #9E4784, #D27685);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-card-1 {
+  background: linear-gradient(300deg, #6f63ca, #ab5fd1, #e079c1, #ffabb9);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.custom-nav-link {
+  color: #F4EEE0;
+  background-color: #393646;
+  margin: 10px;
+}
+
+.custom-nav-link:hover {
+  color: #6D5D6E;
+  text-decoration: none;
+}
+
+.image-container {
+  border-radius: 40px;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  max-height: 40rem;
+  object-fit: cover;
+}
+
+.carousel {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 576px) {
+  .nav-pills {
+    flex-wrap: nowrap;
+  }
+
+  .nav-item {
+    flex-grow: 1;
+  }
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  margin-top: 155px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.custom-container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress {
+  width: 200px;
+}
+
+.lead {
+  color: #F4EEE0;
+}
+
+.unity-link {
+  color: #6D5D6E;
+  text-decoration: none;
+}
+
+.unity-link:hover {
+  color: #37306B;
+  text-decoration: none;
+}
+
+.rounded-new {
+  border-radius: 30px;
+}
+
+.card-links {
+  text-decoration: none;
+}
+
+.card h3:hover {
+  color: #66347F;
+}
+
+#footer-items a {
+  color: #F4EEE0;
+}
+
+#footer-items a:hover {
+  background-color: #37306B;
+  border-radius: 10%;
+}

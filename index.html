@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justin Hutchison</title>
+  <!-- Bootstrap and CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="gradient-background" id="home">
+    <div class="container col-xxl-8 px-4 pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-lg-5 pt-0 pb-3">
+
+        <!-- Carousel -->
+        <div class="col-12 col-sm-10 col-lg-6 px-0">
+          <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/portrait.jpg" class="d-block image-container" alt="Self portrait">
+              </div>
+              <div class="carousel-item">
+                <img src="images/bartending.jpg" class="d-block image-container" alt="Myself pouring beers">
+              </div>
+              <div class="carousel-item">
+                <img src="images/wedding.jpg" class="d-block image-container" alt="My girlfriend and I at a wedding">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Text Area -->
+        <div class="col-lg-6 pr-5">
+          <h1 class="display-5 fw-bold mb-3 lead">Justin Hutchison</h1>
+          <p class="lead">Hi there, I am an IT student at Kwantlen Polytechnic University. I enjoy coding with languages
+            like Python, Javascript and C#. Currently I am a bartender at Farm Country Brewing while using my spare time
+            to learn and grow my computer science skills. </p>
+        </div>
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container justify-content-center">
+            <div class="d-flex justify-content-center mt-5 mb-0">
+              <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item"><a href="#home" class="nav-link custom-nav-link" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#work-experience" class="nav-link custom-nav-link">Work Experience</a>
+                </li>
+                <li class="nav-item"><a href="#skills" class="nav-link custom-nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link custom-nav-link">Education</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link custom-nav-link">Portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Work Experience -->
+  <div class="big-container">
+    <div class="container custom-container" id="work-experience">
+      <h1 class="title">Work Experience</h1>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="images/beer.png" width="30px">
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Farm Country Brewing</h3>
+            <p>Team Lead - (August 2020 - Present)</p>
+            <ul>
+              <li>Memorize the different characteristics of the beers offered and how to determine which customer will
+                like what type of beer based on their preferences in style and taste.</li>
+              <li>Work alongside a team to complete a multitude of different tasks daily, including opening and closing
+                duties to insure an efficient work environment.</li>
+              <li>Directly involved with communicating kindly with customers and insuring they have a pleasant
+                experience.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-telephone"
+              viewBox="0 0 16 16">
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">PR Bridge Systems Ltd.</h3>
+            <p>Telecom Technician - (June 2017 - July 2020)</p>
+            <ul>
+              <li>Followed the correct structured cabling specs/procedures while installing data cables, fiber optics
+                and security wire. </li>
+              <li>Collaborated with a team of technicians to complete multiple large jobs of over 500 cable drop
+                locations in a single building.</li>
+              <li>Responsible for organizing and assigning tasks to other technicians on smaller jobsites to ensure
+                deadlines are met while maintaining strict quality of work standards.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-pc-display"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Pacific National Exhibition</h3>
+            <p>IT Assistant - (May 2019 - May 2020)</p>
+            <ul>
+              <li>Trained and led two IT interns in completing various tasks in preparations and support for one of BC's
+                biggest events of the summer.</li>
+              <li>Assisted the IT helpdesk support system by helping over 100 users resolve various IT related problems
+                over the course of 3 months via email or phone calls to ensure all employees at the company are able to
+                work efficiently with their computer systems.</li>
+              <li>Installed IT equipment in 20-30 different booths or locations within a strict deadline in preparation
+                for the Fair at the PNE.</li>
+              <li>Worked with IT systems such as active directory, virtual computing, Cisco systems and point of sale
+                systems to complete daily tasks.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Languages/Frameworks -->
+  <div class="container px-4 py-5 gradient-background rounded-new" id="skills">
+    <h2 class="pb-2 border-bottom">Beginner Experience Levels with Languages/Frameworks</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-3 fs-4 text-body-emphasis">Python</h3>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 90%;" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-3 fs-4 text-body-emphasis">HTML</h3>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 80%;" aria-valuenow="80"
+              aria-valuemin="0" aria-valuemax="100">80%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-3 fs-4 text-body-emphasis">Javascript</h3>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 82%;" aria-valuenow="82"
+              aria-valuemin="0" aria-valuemax="100">82%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-3 fs-4 text-body-emphasis">C#</h3>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 60%;" aria-valuenow="60"
+              aria-valuemin="0" aria-valuemax="100">60%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-3 fs-4 text-body-emphasis">CSS</h3>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 65%;" aria-valuenow="65"
+              aria-valuemin="0" aria-valuemax="100">65%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-3 fs-4 text-body-emphasis">C++</h3>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 55%;" aria-valuenow="55"
+              aria-valuemin="0" aria-valuemax="100">55%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-3 fs-4 text-body-emphasis">Bootstrap</h3>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 65%;" aria-valuenow="65"
+              aria-valuemin="0" aria-valuemax="100">65%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Education -->
+  <div class="big-container">
+    <div class="container custom-container" id="education">
+      <h1 class="title">Education</h1>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+        <div class="col d-flex align-items-start">
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Kwantlen Polytechnic University</h3>
+            <p>Bachelors of Technology - (January 2019 - Present)</p>
+            <ul>
+              <li>3.67 GPA</li>
+              <li>Major in Information Technology</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-pc-display"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Online Courses</h3>
+            <p>Various courses in free time</p>
+            <ul>
+              <li>Udemy - 100 Days of Code: The Complete Python Pro Bootcamp - Dr. Angela Yu (Januray 2023 - Present)
+              </li>
+              <li>Udemy - The Complete 2023 Web Development Bootcamp - Dr. Angela Yu (March 2023 - Present)</li>
+              <li>Unity - Various Courses <a href="https://learn.unity.com/u/62605242edbc2a6128d12ff7?tab=profile"
+                  class="unity-link">(Profile Link)</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Kwantlen Polytechnic University</h3>
+            <p>Low Voltage and Security/Data Networking Certificate - (April 2017 - June 2017)</p>
+            <ul>
+              <li>Earened an 'Outstanding Achievment Award'</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-pc-display"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">RE Mountain Secondary School</h3>
+            <p>IT Assistant - (2011 - 2016)</p>
+            <ul>
+              <li>Highschool Diploma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Portfolio -->
+  <div class="container px-4 py-5 gradient-background rounded-new" id="portfolio">
+    <h2 class="pb-2 border-bottom" style="color: #F4EEE0;">Personal Portfolio</h2>
+
+    <a class="card-links" href="https://replit.com/@JustinHutchiso2/Blackjack?v=1">
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg gradient-card-1">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Python Blackjack Game</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="images/python.png" alt="Bootstrap" width="45" height="45" class="rounded-circle">
+                  <img src="images/replit.png" alt="Bootstrap" width="45" height="45" class="rounded-circle">
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+    </a>
+
+    <a class="card-links" href="https://replit.com/@JustinHutchiso2/Tip-Calculator?v=1">
+      
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg gradient-card-1">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tip Calculator App</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="images/python.png" alt="Bootstrap" width="45" height="45" class="rounded-circle">
+                <img src="images/tkinter.png" alt="Bootstrap" width="45" height="45" class="rounded-circle">
+                <img src="images/replit.png" alt="Bootstrap" width="45" height="45" class="rounded-circle">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a class="card-links" href="https://replit.com/@JustinHutchiso2/US-States-Game?v=1">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg gradient-card-1">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Guess the US States Game</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="images/python.png" alt="Bootstrap" width="45" height="45" class="rounded-circle">
+                <img src="images/tkinter.png" alt="Bootstrap" width="45" height="45" class="rounded-circle">
+                <img src="images/replit.png" alt="Bootstrap" width="45" height="45" class="rounded-circle">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <section id="footer" class="gradient-background">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-5 border-top">
+          <p class="col-md-2 mb-0" style="color: #F4EEE0;">Justin Hutchison</p>
+
+          <ul class="nav col-md-6 justify-content-end" id="footer-items">
+            <li class="nav-item"><a href="#home" class="nav-link px-2">Home</a>
+            </li>
+            <li class="nav-item"><a href="#work-experience" class="nav-link px-2">Work
+                Experience</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link px-2">Skills</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link px-2">Education</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link px-2">Portfolio</a></li>
+          </ul>
+        </footer>
+      </div>
+
+    </section>
+  </footer>
+
+  <!-- Bootstrap Functionality -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
